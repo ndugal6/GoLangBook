@@ -14,7 +14,7 @@ func main() {
 	if len(files) == 0 {
 		countLines(os.Stdin, counts)
 	} else {
-		for _, args := range files {
+		for _, arg := range files {
 			f, err := os.Open(arg)
 			if err != nil {
 				fmt.Fprintf(os.Stderr, "dup2: %v\n", err)
