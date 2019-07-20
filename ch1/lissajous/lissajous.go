@@ -11,7 +11,7 @@ import (
 	"os"
 )
 
-var palette = []color.Color{color.White, color.Black}
+var palette = []color.Color{color.RGBA{165, 55, 253, 1}, color.RGBA{247, 202, 24, 1}}
 
 const (
 	whiteIndex = 0 //first color in palette
